@@ -279,19 +279,19 @@ body /* wallpaper */
 
 @media screen and (max-width: 1180px) {
 
-  #emf-form {
+  /*#emf-form {
     width: 857px !important;
     margin-left: -123px !important;
     background: none;
   }
-}
+}*/
 
 @media screen and (max-width: 1023px) {
-#emf-form {
+/*#emf-form {
     width: 684px !important;
     margin-left: -29px !important;
     background: none;
-  }
+  }*/
 
   #emf-form input, #emf-form select, #emf-form textarea {
     max-width: 94%;
@@ -308,22 +308,22 @@ body /* wallpaper */
 
 
 @media screen and (max-width: 860px) {
-#emf-form {
+/*#emf-form {
     width: 598px !important;
     margin-left: -6px !important;
     background: none;
 }
 
-
+*/
   }
 
 
   @media screen and (max-width: 767px) {
-#emf-form {
+/*#emf-form {
     width: 524px !important;
     margin-left: -6px !important;
     background: none;
-}
+}*/
 
 #emf-container ul li.emf-li-half-width {
     width: 50% !important;
