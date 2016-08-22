@@ -307,12 +307,12 @@ body /* wallpaper */
 
 
 
-@media screen and (max-width: 860px) {
-/*#emf-form {
+@media screen and (max-width: 660px) {
+#emf-form {
     width: 598px !important;
     margin-left: -6px !important;
     background: none;
-}*/
+}
 
 
   }
