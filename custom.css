@@ -203,15 +203,62 @@ body /* wallpaper */
 
 /* -- CCDM Custom -- */
 
-#emf-form {
-    width: 1015px !important;
-    margin-left: -200px  !important;
+#emf-form-shadows {
+    display: none !important;
+}
+
+#emf-container #emf-form-description {
+    font-style: normal;
+    font-size: 15px;
+    color: #000000;
+    font-family: roboto, sans-serif;
+    text-align: center;
+}
+
+
+#emf-container #emf-form-title {
+    font-style: inherit;
+    font-size: 23px;
+    color: #3D484B;
+    font-family: roboto, sans-serif;
+    text-align: center;
+    margin-top: -24px;
+}
+
+
+#emf-container #emf-form ul li.highlight-field {
+    background-color: #fff;
+}
+
+.emf-div-field .side_by_side {
+    margin-left: 8px;
+}
+
+
+
+#emf-container ul li label.emf-label-desc {
+    font-weight: 500;
+    padding-right: 2px;
+    padding-bottom: 5px;
+    display: block;
+    font-family: roboto, sans-serif;
+    font-style: normal;
+}
+
+#emf-container {
+    border: none;
+    background: none;
 }
 
 
 #emf-form {
     width: 100% !important;
     padding: 50px 50px 50px 205px;
+}
+
+#emf-container-outer {
+
+    background-color: #fff;
 }
 
 
@@ -221,6 +268,62 @@ body /* wallpaper */
 
 
 /* -- Media Queries -- */
+
+
+@media screen and (max-width: 1180px) {
+
+  #emf-form {
+    width: 857px !important;
+    margin-left: -123px !important;
+    background: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+#emf-form {
+    width: 684px !important;
+    margin-left: -29px !important;
+    background: none;
+  }
+
+  #emf-form input, #emf-form select, #emf-form textarea {
+    max-width: 94%;
+}
+
+
+
+#emf-container ul li label.emf-label-desc {
+    font-size: 15px;
+    margin-right: 10px;
+}
+}
+
+
+
+@media screen and (max-width: 860px) {
+#emf-form {
+    width: 598px !important;
+    margin-left: -6px !important;
+    background: none;
+}
+
+
+  }
+
+
+  @media screen and (max-width: 767px) {
+#emf-form {
+    width: 524px !important;
+    margin-left: -6px !important;
+    background: none;
+}
+
+#emf-container ul li.emf-li-half-width {
+    width: 50% !important;
+}
+
+  }
+
 
 
 @media screen and (max-width: 480px) {
