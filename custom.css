@@ -277,13 +277,13 @@ body /* wallpaper */
 /* -- Media Queries -- */
 
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1000px) {
 
 #emf-form {
-    width: 857px !important;
-    margin-left: -123px !important;
+    width: 862px !important;
+    margin-left: -317px !important;
     background: none;
-  }
+}
 }
 
 @media screen and (max-width: 1023px) {
