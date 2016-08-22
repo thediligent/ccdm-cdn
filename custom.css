@@ -517,3 +517,11 @@ body /* wallpaper */
         padding: 4px;
     }
 }
+
+@media screen and (max-width: 300px) {
+#emf-form {
+    width: 309px !important;
+    margin-left: -201px !important;
+}
+    
+}
