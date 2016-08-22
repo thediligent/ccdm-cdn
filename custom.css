@@ -286,7 +286,7 @@ body /* wallpaper */
 }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 900px) {
 /*#emf-form {
     width: 684px !important;
     margin-left: -29px !important;
@@ -308,11 +308,11 @@ body /* wallpaper */
 
 
 @media screen and (max-width: 860px) {
-#emf-form {
+/*#emf-form {
     width: 598px !important;
     margin-left: -6px !important;
     background: none;
-}
+}*/
 
 
   }
