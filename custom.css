@@ -282,7 +282,6 @@ body /* wallpaper */
 #emf-form {
     width: 862px !important;
     margin-left: -317px !important;
-    background: none;
 }
 }
 
@@ -290,7 +289,6 @@ body /* wallpaper */
 #emf-form {
     width: 668px !important;
     margin-left: -224px !important;
-    background: none;
 }
 
   #emf-form input, #emf-form select, #emf-form textarea {
@@ -311,19 +309,17 @@ body /* wallpaper */
 #emf-form {
     width: 589px !important;
     margin-left: -201px !important;
-    background: none;
 }
 
 
   }
 
 
-  @media screen and (max-width: 767px) {
-/*#emf-form {
-    width: 524px !important;
-    margin-left: -6px !important;
-    background: none;
-}*/
+  @media screen and (max-width: 560px) {
+#emf-form {
+    width: 509px !important;
+    margin-left: -201px !important;
+}
 
 #emf-container ul li.emf-li-half-width {
     width: 50% !important;
