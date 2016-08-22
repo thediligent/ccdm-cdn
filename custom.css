@@ -307,7 +307,7 @@ body /* wallpaper */
 
 
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 560px) {
 #emf-form {
     width: 598px !important;
     margin-left: -6px !important;
