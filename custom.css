@@ -203,6 +203,12 @@ body /* wallpaper */
 
 /* -- CCDM Custom -- */
 
+#emf-form {
+    width: 1032px !important;
+    margin-left: -396px !important;
+    background: none;
+}
+
 #emf-form-shadows {
     display: none !important;
 }
