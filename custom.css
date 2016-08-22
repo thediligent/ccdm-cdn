@@ -288,10 +288,10 @@ body /* wallpaper */
 
 @media screen and (max-width: 800px) {
 #emf-form {
-    width: 684px !important;
-    margin-left: -29px !important;
+    width: 668px !important;
+    margin-left: -224px !important;
     background: none;
-  }
+}
 
   #emf-form input, #emf-form select, #emf-form textarea {
     max-width: 94%;
