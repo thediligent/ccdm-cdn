@@ -329,7 +329,15 @@ body /* wallpaper */
 
 
 
+
 @media screen and (max-width: 480px) {
+	
+	#emf-form {
+    width: 403px !important;
+    margin-left: -201px !important;
+}
+
+
     #emf-recaptcha_widget {
         width: 348px;
     }
