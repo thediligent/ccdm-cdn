@@ -279,12 +279,12 @@ body /* wallpaper */
 
 @media screen and (max-width: 1180px) {
 
-  /*#emf-form {
+#emf-form {
     width: 857px !important;
     margin-left: -123px !important;
     background: none;
   }
-}*/
+}
 
 @media screen and (max-width: 1023px) {
 /*#emf-form {
