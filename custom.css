@@ -333,8 +333,8 @@ body /* wallpaper */
 @media screen and (max-width: 480px) {
 	
 #emf-form {
-    width: 358px !important;
-    margin-left: -6px !important;
+    width: 468px !important;
+    margin-left: -204px !important;
 }
 
 
@@ -348,13 +348,7 @@ body /* wallpaper */
 }
 
 
-@media screen and (max-width: 480px) {
-	
-#emf-form {
-    width: 468px !important;
-    margin-left: -204px !important;
-}
-}
+
 
 @media screen and (max-width: 400px) {
 	
