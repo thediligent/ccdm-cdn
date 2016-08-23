@@ -325,6 +325,11 @@ body /* wallpaper */
     width: 50% !important;
 }
 
+embed, iframe {
+    max-width: 100%;
+    height: 3084px !important;
+}
+
   }
 
 
