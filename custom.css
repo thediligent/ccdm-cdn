@@ -353,7 +353,7 @@ body /* wallpaper */
 @media screen and (max-width: 400px) {
 	
 #emf-form {
-    width: 376px !important;
+    width: 329px !important;
     margin-left: -6px !important;
 }
     body {
@@ -546,7 +546,7 @@ body /* wallpaper */
 
 @media screen and (max-width: 280px) {
 #emf-form {
-    width: 201px !important;
+    width: 166px !important;
     margin-left: -9px !important;
 }
 }
