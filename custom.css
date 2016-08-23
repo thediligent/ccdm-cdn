@@ -347,6 +347,15 @@ body /* wallpaper */
     }
 }
 
+
+@media screen and (max-width: 480px) {
+	
+#emf-form {
+    width: 468px !important;
+    margin-left: -204px !important;
+}
+}
+
 @media screen and (max-width: 400px) {
 	
 	#emf-form {
