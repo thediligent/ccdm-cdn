@@ -352,8 +352,8 @@ body /* wallpaper */
 
 @media screen and (max-width: 400px) {
 	
-	#emf-form {
-    width: 400px !important;
+#emf-form {
+    width: 376px !important;
     margin-left: -6px !important;
 }
     body {
@@ -526,10 +526,43 @@ body /* wallpaper */
     }
 }
 
+
+@media screen and (max-width: 350px)
+#emf-form {
+    width: 294px !important;
+    margin-left: -6px !important;
+}
+
+
+
+
 @media screen and (max-width: 300px) {
 #emf-form {
-    width: 309px !important;
-    margin-left: -201px !important;
+    width: 242px !important;
+    margin-left: -2px !important;
 }
     
+}
+
+@media screen and (max-width: 280px) {
+#emf-form {
+    width: 201px !important;
+    margin-left: -9px !important;
+}
+}
+
+
+@media screen and (max-width: 240px)
+#emf-form {
+    width: 175px !important;
+    margin-left: -9px !important;
+}
+}
+
+
+@media screen and (max-width: 220px)
+#emf-form {
+    width: 165px !important;
+    margin-left: -9px !important;
+}
 }
