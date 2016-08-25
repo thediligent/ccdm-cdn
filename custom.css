@@ -203,6 +203,26 @@ body /* wallpaper */
 
 /* -- CCDM Custom -- */
 
+#emf-container li.emf-field-section_break .emf-section-text {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 14px;
+    color: #3D484B;
+    font-style: italic;
+}
+
+#emf-container li .emf-div-instruction, #emf-container li .emf-div-field label {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 15px;
+    color: #3D484B;
+}
+
+#emf-container li.emf-field-section_break div.emf-div-field-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 #emf-form {
     width: 1032px !important;
     margin-left: -396px !important;
