@@ -203,6 +203,16 @@ body /* wallpaper */
 
 /* -- CCDM Custom -- */
 
+#outer-after-post, #outer-after-splash {
+    margin: 0 auto;
+    width: 640px;
+    background: none repeat scroll 0 0 #FFF;
+    border: none;
+    text-align: left;
+    box-shadow: none;
+    margin-left: -12px !important;
+}
+
 
 
 #emf-container li.emf-field-section_break .emf-section-text {
