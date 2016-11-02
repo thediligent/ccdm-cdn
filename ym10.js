@@ -2378,25 +2378,6 @@ var layoutResizeTimer, $youmaxGrid, youmaxLoggedInUser = {};
         "popup" == t.displayVideo ? $youmaxPlayBox = e(".youmax-popup.mfp-gallery") : $youmaxPlayBox = a, o = $youmaxPlayBox.find(".youmax-encloser-comment-button.youmax-more-button"), o.addClass("youmax-load-more-comments-clicked"), t.showTextInsteadOfIcons ? o.html(n.loading) : o.html('<i class="fa fa-ellipsis-h fa-3x"></i>'), i = o.data("nextpagetoken"), null != i && "undefined" != i && "" != i ? (video_id_with_type = $youmaxPlayBox.find(".youmax-encloser-comment-button.youmax-show-button").attr("id"), video_type = video_id_with_type.substring(0, video_id_with_type.indexOf("_")), video_id = video_id_with_type.substring(video_id_with_type.indexOf("_") + 1), "youtube" == video_type ? p(video_id, a, i) : "vimeo" == video_type && y(video_id, a, i)) : (o.removeClass("youmax-load-more-comments-clicked"), t.showTextInsteadOfIcons ? o.html(n.done) : o.html('<i class="fa fa-close fa-3x"></i>'))
     }, displayItems = function(i, s, u) {
         cache = [], s.data("cache", cache), s.data("cacheindex", 0), s.removeClass("newpage"), s.find("#youmax-encloser").hide(), s.find("#youmax-encloser-video").attr("src", ""), showLoader(s), u && (currentUserData = s.data("youmax_current_user_data"), s.find("#youmax-showing-title").append('<div id="' + s.data("youmax_current_playlist_id") + '" class="youmax-tab youmax-tab-hover youmax-showing-search-title" data-username="' + currentUserData.username + '" data-userimage="' + currentUserData.userimage + '" data-userlink="' + currentUserData.userlink + '"><i title="Back to Playlists" id="youmax-back-to-playlists" class="fa fa-chevron-circle-left fa-lg"></i> <i class="fa fa-bars fa-lg youmax-showing-playlist-icon"></i>' + s.data("youmax_current_playlist_name") + "</div>").show()), -1 != i.indexOf("youtube_channel_uploads_") ? (innerId = i.substring(24), a(innerId, i, null, s)) : -1 != i.indexOf("youtube_channel_playlists_") ? (innerId = i.substring(26), x(innerId, i, null, s)) : -1 != i.indexOf("youtube_channel_search_") ? getSearchVideos(i, null, s) : -1 != i.indexOf("youtube_channel_events_") ? (innerId = i.substring(23), l(innerId, i, null, s)) : -1 != i.indexOf("youtube_playlist_videos_") ? (innerId = i.substring(24), a(innerId, i, null, s)) : -1 != i.indexOf("vimeo_user_videos_") ? (innerId = i.substring(18), o(innerId, i, null, s)) : -1 != i.indexOf("vimeo_channel_videos_") ? (innerId = i.substring(21), t(innerId, i, null, s)) : -1 != i.indexOf("vimeo_group_videos_") ? (innerId = i.substring(19), n(innerId, i, null, s)) : -1 != i.indexOf("vimeo_album_videos_") ? (innerId = i.substring(19), d(innerId, i, null, s)) : -1 != i.indexOf("query_") && (innerId = i.substring(6), getUserSearchVideos(innerId, i, null, s)), s.find(".youmax-tab").removeClass("youmax-tab-hover"), e("#" + i).addClass("youmax-tab-hover"), s.find("#youmax-select").val(i)
-    }, initAdvertisements = function(e) {
-        var a = e.data("youmax_global_options");
-        null != a.advertisementFile && "" != a.advertisementFile ? getAdvertisementFile(e) : (e.data("youmax_advertisement_text", ""), initTranlator(e))
-    }, getAdvertisementFile = function(a) {
-        var o = a.data("youmax_global_options");
-        e.ajax({
-            url: o.advertisementFile,
-            type: "GET",
-            async: !0,
-            cache: !0,
-            dataType: "json",
-            success: function(e) {
-                a.data("youmax_advertisement_text", e), initTranlator(a)
-            },
-            error: function() {
-                a.data("youmax_advertisement_text", ""), initTranlator(a)
-            },
-            beforeSend: U
-        })
     }, displayBannerAdverisements = function(e) {
         var a, o, i = e.data("youmax_advertisement_text");
         if (null != i && null != i.adspace)
