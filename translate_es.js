@@ -34,14 +34,14 @@ function googleTranslateElementInit() {
 }
 
 //Using jQuery
-$(document).ready(function() {
-    $(document).on('click','#esp-toggle', function() {
+jQuery(document).ready(function() {
+    jQuery(document).on('click','#esp-toggle', function() {
         setCookie('googtrans', '/es/en', 0, '.miraaesthetic.com');
         setCookie('googtrans', '', 0, '/');
         location.reload();
     });
 
-    $(document).on('click', '#eng-toggle', function() {
+    jQuery(document).on('click', '#eng-toggle', function() {
         setCookie('googtrans', '', 0, '/', '.miraaesthetic.com');
         setCookie('googtrans', '', 0, '/');
         location.reload();
